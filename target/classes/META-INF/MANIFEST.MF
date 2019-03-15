@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: InventoryAssessment
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Nabin Kumar
+Implementation-Vendor-Id: com.inventory.assesment
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/InventoryAssessment
+Created-By: Maven Integration for Eclipse
+
