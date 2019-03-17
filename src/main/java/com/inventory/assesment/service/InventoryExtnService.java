@@ -41,16 +41,14 @@ public class InventoryExtnService {
 		if(!repository.existsById(itemId)) {
 			throw  new InventoryNotfoundException();
 		}
-		repository.save(invExtn);
-		return invExtn;
+		return repository.save(invExtn);
+		//return invExtn;
 	}
 	
 	public Boolean inventoryExtnExist(String itemId) {
 		if(repository.existsById(itemId)) {
-			System.out.println("inventoryExtnExist returning true");
 			return true;
 		}
-		System.out.println("inventoryExtnExist returning false");
 		return false;
 	}
 	
